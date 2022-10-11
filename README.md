@@ -2,6 +2,8 @@
 
 ## Linear Regression to Predict MPG
 
+![image4](https://user-images.githubusercontent.com/102992388/194438605-ff1e76e5-6835-4ffe-9ff4-b811b4f17491.png)
+
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   - The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset are vehicle_length and ground_clearance. Their Pr(>|t|) values were 2.60e-12 and 5.21e-08, respectively, both of which were less than 0.05, showing a statistically significant relationship with the response variable.  
 - Is the slope of the linear model considered to be zero? Why or why not?
