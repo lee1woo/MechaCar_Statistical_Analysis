@@ -16,10 +16,19 @@
 
 ## T-Tests on Suspension Coils
 
-Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+"Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch."
+
+Lot 1
+- ![image1](https://user-images.githubusercontent.com/102992388/195204810-3563f5bb-fed5-4351-9e24-d1b9f937d1b7.png)
+
+Lot 2
+- ![image2](https://user-images.githubusercontent.com/102992388/195204832-957dd6ba-263c-4821-a8a7-6fd842ffeb9b.png)
+
+Lot 3
+- ![mage3](https://user-images.githubusercontent.com/102992388/195204847-78558983-fe70-4ba0-bda9-9cc55f6f7d50.png)
 
 
-- Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+### Summary of Findings
   - Lot 1 has a p-value of 1, which means that the null hypothesis is true. As such, this lot is not statistically different from the population mean of 1,500 pounds per square inch. In other words, they have similar means.
   - Lot 2 has a p-value of 0.6072, which is also higher than 0.05. As such, this lot is not statistically different from the population mean of 1,500 pounds per square inch.
   - Lot 3 has a p-value of 0.04168, which is lower than 0.05, meaning that we are able to say that the two means are statistically different.
