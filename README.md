@@ -40,8 +40,10 @@ Lot 3
 
 ## Study Design: MechaCar vs Competition
 
+### Description of statistical study
 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+In order to quantify how the MechaCar performs against its competition, I would design a study that would test and compare the city and highway fuel efficiency (MPG), safety rating, and cost of the MechaCar to its competitors. The null hypothesis would be that there is no difference in fuel efficiency and safety rating (and cost) between the MechaCar and the competition. As such, the alternative hypothesis would be that the MechaCar will provide better fuel efficiency and safety ratings than its competitors, but at a more expensive sale price for the consumer.
+
+To test this hypothesis, I would a two sample T-test because it would allow me to easily confirm or reject my hypothesis. The corresponding p-values to my test can be used to determine whether the null hypothesis is true. 
+
+The data necessary to run this statistical test are: numerical values of the cars' respective fuel efficiencies on highways and within cities (this would be in MPG), and the corresponding numerical value of each cars' safety rating (that would be provided by an accrediting agency). This data would not be difficult to acquire.
